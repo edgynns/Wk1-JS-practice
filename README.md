@@ -5,13 +5,27 @@ This repository contains solutions to the JavaScript challenges for Week 1.
 ## Challenges
 
 ### 1. Student Grade Generator
-A function that takes student marks as input and outputs the corresponding grade.
+A function that takes student marks as input (between 0 and 100) and outputs the corresponding grade:
+- A > 79
+- B: 60 to 79
+- C: 49 to 59
+- D: 40 to 48
+- E: less than 40
 
 ### 2. Speed Detector
-A program that takes the speed of a car as input and calculates demerit points if the speed exceeds the limit.
+A program that takes the speed of a car as input and:
+- Prints "Ok" if the speed is less than 70 km/h
+- Gives one demerit point for every 5 km/h above the speed limit (70 km/h)
+- Prints "License suspended" if the driver gets more than 12 points
 
 ### 3. Net Salary Calculator
-A program that calculates an individual's Net Salary based on inputs of basic salary and benefits.
+A program that calculates an individual's Net Salary based on:
+- Basic salary and benefits inputs
+- Tax (PAYE) deductions
+- NHIF deductions
+- NSSF deductions
+- Gross salary calculation
+- Net salary calculation
 
 ## How to Run
 
